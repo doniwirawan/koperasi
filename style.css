@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url('img/cool-background2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+.profil{
+	display: flex;
+}
+.nama{
+	font-size: 20px;
+}
+
+.carousel-inner{
+	border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+	z-index: -10;
+	position: relative;
+	top: -20px;
+}
+.carousel-item{
+	height: 300px;
+}
+.hidden-menu{
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	z-index: 2000;
+	right: 0;
+	display: none;	
+	border-left: 1px solid rgba(0,0,0,0.3);
+
+}
+.menu{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.menu a{
+	text-align: left;
+	font-size: 20px;
+	background-color: #E1B400;
+	color: #f1faee;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.menu a:hover{
+	background-color: #f1faee;
+	color: black;
+
+}
+.card{
+	border-radius: 20px;
+}
+.hidden-menu .close-button{
+	position: relative;
+	display: block;
+	width: 20px;
+	margin-left: auto;
+	top: 20px;
+	right: 28px;
+}
+.explainer{
+	border-radius: 20px;
+}
+
+.icon-inside-card{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+}
+/*.card{
+	background-color: #11B300;
+}*/
+.card p,.card h5, .card i{
+	color: #f1faee;
+}
+.card .btn{
+	border-radius: 20px;
+	background-color: #f1faee;
+	color: black;
+
+}
+.star{
+	color: #E1B400;
+}
+.card .fa{
+	font-size: 5em;
+}
+.img-container{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	border: 2px solid black;
+}
+p.nomor-anggota,p.alamat{
+	margin-top: -15px;
+	
+}
+.ganti-password{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	color:#E1B400;
+}
+.ganti-password:hover {
+	color:#E1B400;
+
+}
+.login-box{
+	position: relative;
+	width: 95%;
+	min-height: 95vh;
+	margin: 0 auto;
+	padding: 10px;
+	/*border: 1px solid #f1faee;*/
+	border-radius: 10px;
+	padding: 20px;
+
+}
+.login-box h2{
+	color: #f1faee;
+}
+.login-box label{
+	color: #f1faee;	
+}
+input{
+	width: 100%;
+	margin:0 0 3px;
+	padding: 7px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #f1faee;
+	background: none;
+	color: #f1faee;
+}
+input:focus{
+	outline: none;
+	border-bottom: 1px solid #f1faee;
+	color: #f1faee;
+}
+input::placeholder{
+	color: #f1faee;
+}
+label{
+	width: 100%;
+	font-weight: 600	;
+	font-size: 1.1em;
+	color: #f1faee;
+}
+button[type=submit]{
+	width: 100%;
+	display: block;
+	margin: 5px 0;
+	border-radius: 5px;
+
+}
+.login-logo{
+	position: relative;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+/*.underline{
+	border-bottom: 2px solid green;
+	width: 100px;
+	margin: 0 auto;
+	padding: 10px;
+}*/
+.background-login-box{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 350px;
+	margin-left: auto;
+}
+.btn-login{
+	background: rgb(39,238,12);
+background: linear-gradient(90deg, rgba(39,238,12,1) 0%, rgba(168,255,0,1) 100%);
+	color: #f1faee;
+}
+.btn-login:hover{
+
+	background: rgb(39,238,12);
+background: linear-gradient(90deg, rgba(168,255,0,1) 0%, rgba(39,238,12,1) 100%);
+	color: #f1faee;
+}
+.main-menu{
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-top: -40px;
+
+}
+.menu-item{
+	/*background-color: #f1faee;*/
+	border-bottom: 1px solid #f1faee;
+	width: 100%;
+	font-size: 1.3em;
+	color: #f1faee;
+	display: flex;
+	cursor: pointer;
+}
+.menu-item a{
+	color: #f1faee;
+	display: block;
+	font-weight: 500;
+	position: absolute;
+	left: 60px;
+}
+.menu-item a:hover{
+	text-decoration: none;
+	color: #fafafa;
+}	
+.menu-item .fa{
+	font-size: 1.3em;
+	color: #f1faee;
+}
+.navbar-brand{
+	color: #f1faee;
+}
+nav{
+	color: #f1faee;
+}
+.logo-index{
+	width: 50px;
+}
+/*.saldo-jumbotron{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	/*border-top: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.saldo-jumbotron .saldo-anda{
+	font-size: 1.5em;
+}
+.saldo-jumbotron .jumlah-saldo{
+	font-size: 3.5em;
+}
+*/
