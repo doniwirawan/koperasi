@@ -256,4 +256,25 @@ nav{
 .saldo-jumbotron .jumlah-saldo{
 	font-size: 3.5em;
 }
+.message-card{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin: 5px 0;
+	padding: 5px 10px;
+	border-radius: 10px;
+	
+}
+.message-card .tanggal{
+		position: absolute;
+		top:10px;
+		right: 10px;
+}
+.message-card .nominal{
+	margin-bottom: 5px;
+}
+
+
 */
